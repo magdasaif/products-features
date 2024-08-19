@@ -1,9 +1,9 @@
 <?php
-namespace Magdasaif\Products\app\providers; 
+namespace Magdasaif\ProductFeatures\app\providers; 
 
 use Illuminate\Support\ServiceProvider;
 
-class ProductServiceProvider extends ServiceProvider
+class ProductFeatureServiceProvider extends ServiceProvider
 {
     public function boot(){
         //==============================================================================================

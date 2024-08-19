@@ -1,13 +1,14 @@
 ===============================================================================
-# this package used to handle product bascis details
+# this package to handle product extra details related to features
 
 ===============================================================================
 # to use it you can follow this steps
-    1- install package through this command
-        composer require magdasaif/products:dev-dev
+    1- make sure first that you install composer require magdasaif/products
+    2- then install package through this command
+        composer require magdasaif/products-features:dev-dev
 
-    2- add provider to config/app.php providers array
-        Magdasaif\Products\app\providers\ProductServiceProvider::class,
+    3- add provider to config/app.php providers array
+        Magdasaif\ProductFeatures\app\providers\ProductFeatureServiceProvider::class,
 
 then you can 
     - access any route in this package
