@@ -1,0 +1,19 @@
+{
+    "name": "magdasaif/products",
+    "description": "this package to handle product basic details",
+    "type": "hlibrary",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Magdasaif\\Products\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "magda",
+            "email": "magdasaif3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
