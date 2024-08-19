@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-    Route::get('product', function(){
-        return 'hello from product package';
+    Route::get('product_feature', function(){
+        return 'hello from product_feature package';
     });

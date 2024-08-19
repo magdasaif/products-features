@@ -1,11 +1,11 @@
 {
-    "name": "magdasaif/products",
-    "description": "this package to handle product basic details",
+    "name": "magdasaif/products-features",
+    "description": "this package to handle product extra details related to features",
     "type": "hlibrary",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Magdasaif\\Products\\": "src/"
+            "Magdasaif\\ProductFeatures\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "magdasaif/product": "dev-dev"
+    }
 }
