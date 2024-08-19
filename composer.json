@@ -16,6 +16,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "magdasaif/product":""
+        "magdasaif/product":"[dev-dev]"
     }
 }
