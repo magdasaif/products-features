@@ -17,6 +17,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "magdasaif/product":"dev-dev"
+        "magdasaif/products":"dev-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Magdasaif\\ProductFeatures\\app\\providers\\ProductFeatureServiceProvider"
+            ]
+        }
     }
 }
